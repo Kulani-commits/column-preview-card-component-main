@@ -7,7 +7,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
-  width: 70vw;
+  width: 60vw;
   height: 60vh;
   background-color: red;
   display: flex;
@@ -19,14 +19,31 @@
 
 .box{
   color: #fff;
+  position: relative;
 }
 
 .sedan{
-  background-color: blue;
+  background-color: hsl(31, 77%, 52%);
 }
 .suv{
-  background-color: purple;
+  background-color: hsl(184, 100%, 22%);
 }
 .luxury{
-  background-color: pink;
+  background-color: hsl(179, 100%, 13%);
+}
+img{
+  margin: 30px;
+}
+
+.heading {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  margin-bottom: 50px;
+}
+.content{
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 200px;
+  background-color: yellow;
 }
